@@ -54,7 +54,7 @@ body {
   background-color: var(--base-white);
   display: flex;
   flex-flow: row wrap;
-  gap: 5%;
+  align-items: flex-start;
   p {
     margin: 0;
     overflow: hidden;
@@ -62,12 +62,12 @@ body {
   }
   p:first-child {
     font-size: 2vw;
-    width: 70%;
+    width: 60%;
     text-transform: uppercase;
   }
   p:last-child {
-    font-size: 0.7vw;
-    width: 20%;
+    font-size: 1vw;
+    width: 30%;
     font-weight: bold;
     color: var(--item-blue-gray);
     text-align: right;
@@ -110,7 +110,7 @@ body {
       width: min-content;
       margin: 5%;
       span {
-        color: var(--item-light-blue);
+        color: var(--item-blue-white);
       }
     }
   }
