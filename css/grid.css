@@ -266,11 +266,12 @@ body {
 
   .line {
     position: absolute;
-    height: 50%;
-    border: 0.2vw solid green;
     bottom: 0;
     left: 50%;
-    transform: rotate(17deg) translateX(0.4vw);
+    height: 50%;
+    border: 0.2vw solid green;
+    transform-origin: bottom left;
+    transform: rotateZ(17deg);
   }
 
   p {
