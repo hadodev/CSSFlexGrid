@@ -78,7 +78,7 @@ body {
 
 .v2 {
   grid-area: v2;
-  background: url("/img/humanoid-8722271_530.png") center / cover no-repeat;
+  background: url("../img/humanoid-8722271_530.png") center / cover no-repeat;
 }
 
 .v3 {
@@ -146,7 +146,7 @@ body {
   }
   div:last-child {
     grid-area: v4_2;
-    background: url("/img/ai-generated-8679366-min-215x384.png") center / contain no-repeat, var(--item-blue-white);
+    background: url("../img/ai-generated-8679366-min-215x384.png") center / contain no-repeat, var(--item-blue-white);
     img {
       width: 100%;
       max-height: 20vh;
@@ -224,7 +224,7 @@ body {
     background-color: var(--item-blue-white);
     position: relative;
     overflow: hidden;
-    background: url("/img/ai-generated-8703671_1280.jpg") center / cover;
+    background: url("../img/ai-generated-8703671_1280.jpg") center / cover;
   }
 }
 
